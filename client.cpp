@@ -2,12 +2,22 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
+#include <vector>
 
 using namespace std;
 
 const size_t KEYSIZE = 16;
+const int PLAIN_LENGTH = 140;  
+const int TABLE_WIDTH = 1<<9;
+const int TABLE_HEIGHT = 1<<8;
+const int BOX_OVERHEAD = 16;
+
+//plaintext length plus 2 public keys and 2 message digests
+const int SLOT_LENGTH = PLAIN_LENGTH + 2*(KEYSIZE + BOX_OVERHEAD);
+
 
 typedef unsigned char byte;
+typedef byte BitMatrixRow[TABLE_WIDTH*SLOT_LENGTH];
 
 
 struct serverInfo{
@@ -46,9 +56,16 @@ class ByteArray{
         }
 };
 
+struct plainQuery{
+    BitMatrixRow row;
+    ByteArray<KEYSIZE> r;
+    ByteArray<KEYSIZE> b;
+};
 
-void genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverInfo si){
+vector<plainQuery> genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverInfo si){
     cout<<"in genShare"<<endl;
+    vector<plainQuery> queries;
+    return queries;
 }
 
 
@@ -58,6 +75,8 @@ int main(){
     a.printArray();
     cout<<"main"<<endl;
     serverInfo s;
-    genShare(a,1,"msg",s);
+    vector<plainQuery> queries = genShare(a,1,"msg",s);
+
+
     return 0;
 }
