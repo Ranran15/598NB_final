@@ -1,7 +1,7 @@
 COMPILER = g++
-COMPILER_OPTS = -std=c++11
+COMPILER_OPTS = -std=c++11 -lssl -lcrypto
 
-LINKER_OPTS = -c -g -Wall -std=c++11
+LINKER_OPTS = -c -g -Wall -std=c++11 -lssl -lcrypto
 
 EXE = client
 

@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <vector>
+#include <openssl/aes.h>
 
 using namespace std;
 
@@ -54,12 +55,20 @@ class ByteArray{
             }
             cout<<"\n";
         }
+
+        byte* getData(){
+            return data;
+        }
 };
 
 struct plainQuery{
     BitMatrixRow row;
-    ByteArray<KEYSIZE> r;
-    ByteArray<KEYSIZE> b;
+
+    //Array of booleans
+    bool v[TABLE_HEIGHT];
+
+    //array of random keys
+    ByteArray<KEYSIZE> s[TABLE_HEIGHT];
 };
 
 vector<plainQuery> genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverInfo si){
@@ -67,6 +76,8 @@ vector<plainQuery> genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverI
     vector<plainQuery> queries;
     return queries;
 }
+
+
 
 
 int main(){
@@ -77,6 +88,21 @@ int main(){
     serverInfo s;
     vector<plainQuery> queries = genShare(a,1,"msg",s);
 
+
+    //AES encrypt/decrypt
+    unsigned char text[] = "hello world";
+    byte enc_out[80];
+    byte dec_out[80];
+
+    AES_KEY enc_key, dec_key;
+    AES_set_encrypt_key(a.getData(),128,&enc_key);
+    AES_encrypt(text, enc_out, &enc_key);
+
+    AES_set_decrypt_key(a.getData(),128,&dec_key);
+    AES_decrypt(enc_out, dec_out, &dec_key);
+
+    cout<<"enc_out: "<<enc_out<<endl;
+    cout<<"dec_out: "<<dec_out<<endl;
 
     return 0;
 }
