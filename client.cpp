@@ -38,6 +38,12 @@ class ByteArray{
         ByteArray(const ByteArray<N> & other){
             memmove(data,other.data,sizeof(data));
         }
+        ByteArray(bool rand){
+            if(rand){
+                memset(data,0,sizeof(data));
+                random();
+            }
+        }
 
         static const size_t size = N;
 
@@ -60,24 +66,6 @@ class ByteArray{
             return data;
         }
 };
-
-struct plainQuery{
-    BitMatrixRow row;
-
-    //Array of booleans
-    bool v[TABLE_HEIGHT];
-
-    //array of random keys
-    ByteArray<KEYSIZE> s[TABLE_HEIGHT];
-};
-
-vector<plainQuery> genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverInfo si){
-    cout<<"in genShare"<<endl;
-    vector<plainQuery> queries;
-    return queries;
-}
-
-
 
 byte* newKey(){
     ByteArray<KEYSIZE> k;
@@ -112,6 +100,85 @@ class Prf{
             AES_decrypt(enc_out, dec_out, &dec_key);
         }
 };
+// ByteArray<KEYSIZE> * randomVectorKeys(){
+//     ByteArray<KEYSIZE> s[TABLE_HEIGHT];
+    
+// }
+
+struct plainQuery{
+    BitMatrixRow row;
+
+    //Array of booleans
+    bool v[TABLE_HEIGHT];
+
+    //array of random keys
+    ByteArray<KEYSIZE> s[TABLE_HEIGHT];
+};
+
+struct location{
+    int x =0;
+    int y =0;
+};
+
+location calculateLocation(ByteArray<KEYSIZE> Kab, int Nab){
+    location l;
+    //p1 = PRF_Kab
+    byte* chars;
+    byte enc_out[256];
+
+    int nab = Nab;
+    chars = (byte*) &nab;
+    //memcpy(chars,(char*)&Nab,sizeof(int));
+    Prf p1(Kab.getData());
+
+    p1.encrypt(chars,enc_out);
+    //cout<<"encout: \n"<<enc_out<<endl;
+    uint n = *(uint*)enc_out %(TABLE_HEIGHT*TABLE_WIDTH);//atoi((char*)enc_out);
+
+    
+    l.y = n/TABLE_WIDTH;
+    l.x = n %TABLE_WIDTH;
+    cout<<"LOCATION:"<<l.x<<" , "<<l.y<<endl;
+
+    return l;
+}
+
+
+vector<plainQuery> genShare( location l, string msg, serverInfo si){
+    cout<<"in genShare"<<endl;
+    //TODO: 1. encrypt slot === encrypt msg
+
+
+    //initialize 2 server
+    plainQuery q1;
+
+    //initialize v and s to random values
+    for(int i =0; i<TABLE_HEIGHT;i++){
+        q1.s[i] = ByteArray<KEYSIZE>();
+        q1.s[i].random();
+
+        q1.v[i] = (rand()%2 == 0);
+    }
+
+
+
+
+    plainQuery q2 = q1;
+    //reset q2's v and s to only differ at row Index , y
+    q2.v[l.y] =  !q1.v[l.y];
+    q2.s[l.y] = ByteArray<KEYSIZE>(true);
+
+
+
+    vector<plainQuery> queries;
+    queries.push_back(q1);
+    queries.push_back(q2);
+    return queries;
+}
+
+
+
+
 
 
 int main(){
@@ -120,7 +187,10 @@ int main(){
     a.printArray();
     cout<<"main"<<endl;
     serverInfo s;
-    vector<plainQuery> queries = genShare(a,1,"msg",s);
+
+
+    location l = calculateLocation(a,1);
+    vector<plainQuery> queries = genShare(l,"msg",s);
 
 
     //AES encrypt/decrypt
