@@ -79,6 +79,40 @@ vector<plainQuery> genShare(ByteArray<KEYSIZE> Kab, int Nab, string msg, serverI
 
 
 
+byte* newKey(){
+    ByteArray<KEYSIZE> k;
+    k.random();
+    return k.getData();
+}
+
+class Prf{
+    private:
+        AES_KEY enc_key;
+        AES_KEY dec_key;
+    public:
+        Prf(){
+            //byte randkey[KEYSIZE] = newKey();
+            byte* k = newKey();
+            AES_set_encrypt_key(k,128,&enc_key);
+            AES_set_decrypt_key(k,128,&dec_key);
+        }
+
+        Prf( byte k[KEYSIZE]){
+            AES_set_encrypt_key(k,128,&enc_key);
+            AES_set_decrypt_key(k,128,&dec_key);
+        }
+
+        void encrypt(byte * msg, byte* enc_out){
+            //byte enc_out[80];
+            AES_encrypt(msg, enc_out, &enc_key);
+            //return 
+        }
+
+        void decrypt(byte * enc_out, byte* dec_out){
+            AES_decrypt(enc_out, dec_out, &dec_key);
+        }
+};
+
 
 int main(){
     ByteArray<KEYSIZE> a;// = new ByteArray<KEYSIZE>();
@@ -94,15 +128,27 @@ int main(){
     byte enc_out[80];
     byte dec_out[80];
 
-    AES_KEY enc_key, dec_key;
-    AES_set_encrypt_key(a.getData(),128,&enc_key);
-    AES_encrypt(text, enc_out, &enc_key);
+    // AES_KEY enc_key, dec_key;
+    // AES_set_encrypt_key(a.getData(),128,&enc_key);
+    // AES_encrypt(text, enc_out, &enc_key);
 
-    AES_set_decrypt_key(a.getData(),128,&dec_key);
-    AES_decrypt(enc_out, dec_out, &dec_key);
+    // AES_set_decrypt_key(a.getData(),128,&dec_key);
+    // AES_decrypt(enc_out, dec_out, &dec_key);
 
-    cout<<"enc_out: "<<enc_out<<endl;
-    cout<<"dec_out: "<<dec_out<<endl;
+    // cout<<"enc_out: "<<enc_out<<endl;
+    // cout<<"dec_out: "<<dec_out<<endl;
+
+    //test prf encode decode
+    Prf f;
+    Prf f2(a.getData());
+
+    f2.encrypt(text,enc_out);
+    f2.decrypt(enc_out,dec_out);
+    cout<<dec_out<<endl;
+
+    f.encrypt(text,enc_out);
+    f.decrypt(enc_out,dec_out);
+    cout<<dec_out<<endl;
 
     return 0;
 }
