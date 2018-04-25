@@ -31,7 +31,7 @@ OPTIONS = -std=c++11 -lssl -lcrypto -ggdb3 -O2 -march=native -mtune=native -O2 -
 INCLUDE = -I/install/path/usr/local/include -I/install/path/usr/local/include/libff -L/install/path/usr/local/lib
 
 #INCLUDE = -I/install/path/usr/local/include -L/home/r/libsnark -libsnark -L/home/r/libff
-LIBS    = -lsnark -libff -lsnark_adsnark 
+LIBS    = -lsnark -lsnark_adsnark 
 #-lsnark_adsnark 
 #-libff -libsnark
 GCC			= g++
