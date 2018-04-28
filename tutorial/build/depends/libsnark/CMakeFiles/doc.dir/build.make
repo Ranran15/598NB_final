@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Utility rule file for doc.
 
@@ -46,9 +46,9 @@ CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
 include depends/libsnark/CMakeFiles/doc.dir/progress.make
 
 depends/libsnark/CMakeFiles/doc:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Translating from markdown to HTML"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark && /usr/bin/markdown_py -f /home/r/598NB_final/tutorial/build/depends/libsnark/README.html -x toc -x extra --noisy /home/r/598NB_final/tutorial/depends/libsnark/README.md
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark && /usr/bin/markdown_py -f /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/README.html -x toc -x extra --noisy /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/README.md
 
 doc: depends/libsnark/CMakeFiles/doc
 doc: depends/libsnark/CMakeFiles/doc.dir/build.make
@@ -59,10 +59,10 @@ depends/libsnark/CMakeFiles/doc.dir/build: doc
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/build
 
 depends/libsnark/CMakeFiles/doc.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/clean
 
 depends/libsnark/CMakeFiles/doc.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/depend
 

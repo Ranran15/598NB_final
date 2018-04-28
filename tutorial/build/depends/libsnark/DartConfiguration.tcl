@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/r/598NB_final/tutorial/depends/libsnark
-BuildDirectory: /home/r/598NB_final/tutorial/build/depends/libsnark
+SourceDirectory: /home/nb/Desktop/598NB_final/tutorial/depends/libsnark
+BuildDirectory: /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: r-VirtualBox
+Site: nb-VirtualBox
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/r/598NB_final/tutorial/depends/libsnark"
+ConfigureCommand: "/usr/bin/cmake" "/home/nb/Desktop/598NB_final/tutorial/depends/libsnark"
 MakeCommand: /usr/bin/make -i
 DefaultCTestConfigurationType: Release
 

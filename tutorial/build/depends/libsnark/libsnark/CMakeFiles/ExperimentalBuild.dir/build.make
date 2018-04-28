@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Utility rule file for ExperimentalBuild.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
 include depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D ExperimentalBuild
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D ExperimentalBuild
 
 ExperimentalBuild: depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild
 ExperimentalBuild: depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build.make
@@ -57,10 +57,10 @@ depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build: ExperimentalBu
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/depend
 

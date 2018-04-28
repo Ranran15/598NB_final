@@ -96,6 +96,15 @@ src/CMakeFiles/main.dir/main.cpp.o
  ../depends/libsnark/libsnark/common/data_structures/sparse_vector.hpp
  ../depends/libsnark/libsnark/common/data_structures/sparse_vector.tcc
  ../depends/libsnark/libsnark/common/default_types/r1cs_gg_ppzksnark_pp.hpp
+ ../depends/libsnark/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
+ ../depends/libsnark/libsnark/gadgetlib1/gadget.hpp
+ ../depends/libsnark/libsnark/gadgetlib1/gadget.tcc
+ ../depends/libsnark/libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+ ../depends/libsnark/libsnark/gadgetlib1/gadgets/basic_gadgets.tcc
+ ../depends/libsnark/libsnark/gadgetlib1/pb_variable.hpp
+ ../depends/libsnark/libsnark/gadgetlib1/pb_variable.tcc
+ ../depends/libsnark/libsnark/gadgetlib1/protoboard.hpp
+ ../depends/libsnark/libsnark/gadgetlib1/protoboard.tcc
  ../depends/libsnark/libsnark/knowledge_commitment/kc_multiexp.hpp
  ../depends/libsnark/libsnark/knowledge_commitment/kc_multiexp.tcc
  ../depends/libsnark/libsnark/knowledge_commitment/knowledge_commitment.hpp
@@ -113,4 +122,7 @@ src/CMakeFiles/main.dir/main.cpp.o
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/r1cs_gg_ppzksnark.hpp
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/r1cs_gg_ppzksnark.tcc
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/r1cs_gg_ppzksnark_params.hpp
- /home/r/598NB_final/tutorial/src/main.cpp
+ ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
+ ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
+ ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
+ /home/nb/Desktop/598NB_final/tutorial/src/main.cpp

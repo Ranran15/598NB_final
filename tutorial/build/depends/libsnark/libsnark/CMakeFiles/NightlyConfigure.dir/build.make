@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Utility rule file for NightlyConfigure.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
 include depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D NightlyConfigure
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D NightlyConfigure
 
 NightlyConfigure: depends/libsnark/libsnark/CMakeFiles/NightlyConfigure
 NightlyConfigure: depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build.make
@@ -57,10 +57,10 @@ depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build: NightlyConfigur
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/depend
 

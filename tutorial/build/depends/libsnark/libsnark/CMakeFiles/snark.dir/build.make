@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/snark.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o: ../depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp > CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp > CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp -o CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp -o CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o.requires
@@ -74,17 +74,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_pe
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o: ../depends/libsnark/libsnark/common/data_structures/set_commitment.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp > CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp > CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp -o CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp -o CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o.requires
@@ -97,17 +97,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commit
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o: ../depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp > CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp > CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp -o CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp -o CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o.requires
@@ -120,17 +120,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o: ../depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp > CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp > CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp -o CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp -o CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o.requires
@@ -143,17 +143,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzk
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o: ../depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp > CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp > CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp -o CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp -o CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o.requires
@@ -166,17 +166,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksn
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o: ../depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp > CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp > CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp -o CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp -o CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o.requires
@@ -189,17 +189,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waks
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o: ../depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp > CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp > CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp -o CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp -o CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o.requires
@@ -212,17 +212,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_r
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o: ../depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp > CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp > CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp -o CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp -o CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o.requires
@@ -235,17 +235,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.c
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/adapters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp > CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp > CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp -o CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp -o CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o.requires
@@ -258,17 +258,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o.provide
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/constraint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp > CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp > CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp -o CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp -o CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o.requires
@@ -281,17 +281,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o.provi
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/gadget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp > CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp > CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp -o CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp -o CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o.requires
@@ -304,17 +304,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o.provides.
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp > CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp > CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp -o CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp -o CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o.requires
@@ -327,17 +327,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o.p
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/integration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp > CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp > CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp -o CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp -o CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o.requires
@@ -350,17 +350,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o.prov
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp > CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp > CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp -o CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp -o CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o.requires
@@ -373,17 +373,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o.provides.buil
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/protoboard.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp > CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp > CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp -o CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp -o CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o.requires
@@ -396,17 +396,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o.provi
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/variable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp > CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp > CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp -o CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp -o CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o.requires
@@ -419,17 +419,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o.provide
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o: ../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp > CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp > CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp -o CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp -o CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o.requires
@@ -442,17 +442,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_pr
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o: ../depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp > CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp > CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp -o CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp -o CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o.requires
@@ -465,17 +465,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o: ../depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp > CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp > CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp -o CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp -o CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o.requires
@@ -488,17 +488,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o: ../depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp > CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp > CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp -o CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp -o CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o.requires
@@ -511,17 +511,17 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/f
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o: depends/libsnark/libsnark/CMakeFiles/snark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o: ../depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp > CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp > CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp -o CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp -o CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o.requires
@@ -583,8 +583,8 @@ depends/libsnark/libsnark/libsnark.a: depends/libsnark/libsnark/CMakeFiles/snark
 depends/libsnark/libsnark/libsnark.a: depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make
 depends/libsnark/libsnark/libsnark.a: depends/libsnark/libsnark/CMakeFiles/snark.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libsnark.a"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/snark.dir/cmake_clean_target.cmake
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snark.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/snark.dir/cmake_clean_target.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/snark.dir/build: depends/libsnark/libsnark/libsnark.a
@@ -614,10 +614,10 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/requires: depends/libsnark/libsna
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/snark.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/snark.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/depend
 

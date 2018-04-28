@@ -100,25 +100,25 @@ intrin.h
 cpuid.h
 -
 
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.cpp
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.cpp
 zm.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.h
 cstdio
 -
 xbyak/xbyak.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak.h
 
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm2.cpp
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm2.cpp
 iostream
 -
 zm.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/zm.h
 xbyak/xbyak.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak.h
 xbyak/xbyak_util.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak_util.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/xbyak/xbyak_util.h
 bn.h
-/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/bn.h
+/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/src/bn.h
 stdint.h
 -
 

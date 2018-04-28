@@ -3,11 +3,11 @@
 
 # compile ASM with /usr/bin/cc
 # compile C with /usr/bin/cc
-ASM_FLAGS = -O2 -g -DNDEBUG -I/home/r/598NB_final/tutorial/. -I/usr/include -I/home/r/598NB_final/tutorial/depends/libsnark/. -I/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/include -I/home/r/598NB_final/tutorial/depends/libsnark/depends/xbyak -I/home/r/598NB_final/tutorial/depends/libsnark/depends/libsnark-supercop/include   
+ASM_FLAGS = -O2 -g -DNDEBUG -I/home/nb/Desktop/598NB_final/tutorial/. -I/usr/include -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/. -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/include -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/xbyak -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libsnark-supercop/include   
 
 ASM_DEFINES = -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DUSE_ASM
 
-C_FLAGS = -O2 -g -DNDEBUG -I/home/r/598NB_final/tutorial/. -I/home/r/598NB_final/tutorial/depends/libsnark/. -I/home/r/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/include -I/home/r/598NB_final/tutorial/depends/libsnark/depends/xbyak -I/home/r/598NB_final/tutorial/depends/libsnark/depends/libsnark-supercop/include   
+C_FLAGS = -O2 -g -DNDEBUG -I/home/nb/Desktop/598NB_final/tutorial/. -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/. -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/ate-pairing/include -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/xbyak -I/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libsnark-supercop/include   
 
 C_DEFINES = -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DUSE_ASM
 

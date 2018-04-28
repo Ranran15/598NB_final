@@ -1,4 +1,4 @@
-# Install script for directory: /home/r/598NB_final/tutorial/depends
+# Install script for directory: /home/nb/Desktop/598NB_final/tutorial/depends
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/r/598NB_final/tutorial/build/depends/libsnark/cmake_install.cmake")
+  INCLUDE("/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

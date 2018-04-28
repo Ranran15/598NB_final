@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multip
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o: depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/flags.make
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o: ../depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp > CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp > CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o.requires
@@ -86,7 +86,7 @@ depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: /usr/lib/
 depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: depends/libsnark/depends/libzm.a
 depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable polynomial_multiplication"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial_multiplication.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial_multiplication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/build: depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication
@@ -96,10 +96,10 @@ depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/requires
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/polynomial_multiplication.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/polynomial_multiplication.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/clean
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials /home/r/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend
 

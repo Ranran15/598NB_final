@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/flags.ma
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o: ../depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/r/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o -c /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp > CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp > CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/r/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp -o CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp -o CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o.requires
@@ -89,7 +89,7 @@ depends/libsnark/libsnark/gadgetlib1_fooram_test: /usr/lib/x86_64-linux-gnu/libg
 depends/libsnark/libsnark/gadgetlib1_fooram_test: depends/libsnark/depends/libzm.a
 depends/libsnark/libsnark/gadgetlib1_fooram_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable gadgetlib1_fooram_test"
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib1_fooram_test.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib1_fooram_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build: depends/libsnark/libsnark/gadgetlib1_fooram_test
@@ -99,10 +99,10 @@ depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/requires: depend
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib1_fooram_test.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib1_fooram_test.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 
 # Utility rule file for check.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/r/598NB_final/tutorial/build
 include depends/libsnark/CMakeFiles/check.dir/progress.make
 
 depends/libsnark/CMakeFiles/check:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark && /usr/bin/ctest
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark && /usr/bin/ctest
 
 check: depends/libsnark/CMakeFiles/check
 check: depends/libsnark/CMakeFiles/check.dir/build.make
@@ -57,10 +57,10 @@ depends/libsnark/CMakeFiles/check.dir/build: check
 .PHONY : depends/libsnark/CMakeFiles/check.dir/build
 
 depends/libsnark/CMakeFiles/check.dir/clean:
-	cd /home/r/598NB_final/tutorial/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/check.dir/clean
 
 depends/libsnark/CMakeFiles/check.dir/depend:
-	cd /home/r/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/598NB_final/tutorial /home/r/598NB_final/tutorial/depends/libsnark /home/r/598NB_final/tutorial/build /home/r/598NB_final/tutorial/build/depends/libsnark /home/r/598NB_final/tutorial/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/CMakeFiles/check.dir/depend
 

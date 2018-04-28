@@ -1,4 +1,4 @@
-# Install script for directory: /home/r/598NB_final/tutorial/depends/libsnark/depends/gtest/googletest
+# Install script for directory: /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/gtest/googletest
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,21 +33,21 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/r/598NB_final/tutorial/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/r/598NB_final/tutorial/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/r/598NB_final/tutorial/depends/libsnark/depends/gtest/googletest/include/gtest")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/gtest/googletest/include/gtest")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES
-    "/home/r/598NB_final/tutorial/build/gtest.pc"
-    "/home/r/598NB_final/tutorial/build/gtest_main.pc"
+    "/home/nb/Desktop/598NB_final/tutorial/build/gtest.pc"
+    "/home/nb/Desktop/598NB_final/tutorial/build/gtest_main.pc"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
