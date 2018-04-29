@@ -3,3 +3,4 @@ client
 *.o
 *~
 CMakeCache.txt
+*/*.cmake
