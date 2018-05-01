@@ -68,9 +68,12 @@ class ByteArray{
 
         //initialize random ByteArray
         void random(){
-            for(int i=0;i<N;i++){
+            /*for(int i=0;i<N;i++){
                 data[i] = (byte) rand();
-            }
+            }*/
+	    int r = rand()%10;
+            memset(data,0,sizeof(data));
+            memcpy(data, (char*)&r, sizeof(short));
         }
 
         void printArray(){
@@ -89,11 +92,12 @@ class ByteArray{
             return N;
         }
         long toLong(){
-            return *(long*)data;
+            return (long)(*(short*)data);
         }
 
         void setWithLong(long i){
-            memcpy(data, (char*)&i, sizeof(long));
+	    memset(data,0,sizeof(data));
+            memcpy(data, (char*)&i, sizeof(short));
         }
 };
 
@@ -388,8 +392,12 @@ struct commitments
 };
 
 long long computeCommitment(long g, long x, long h, long r, long p){
-    return (long long)((long long)pow(g,r) * (long long)pow(h,x))%p; //% p;
+	if(x<0)
+	    return fmod((double)pow(g,x)*(double)pow(h,r),(double)p)*100000;
+    	return (long long)((long long)pow(g,x) * (long long)pow(h,r))%p * 100000;
 }
+
+
 
 //Generate Pedersen Commitment
 commitments Pedersen(vector<plainQuery> & query){
@@ -404,13 +412,13 @@ commitments Pedersen(vector<plainQuery> & query){
     // long g,h = 1300051, 1299743;
     // long r = 1299721;
 
-    long p  = 1109;
-    long q = 277;
-    //long g = 966;
-    long r = 29;//75;
+    long p  = 3547;
+    long q = 197;
 
-    long g1 = 127; //g
-    long h = 29; //v
+    int g = 3;
+    int h = 7;
+    int r = 2;
+   
 
     //TODO: x should loop through s and b
     //long x = 30;
@@ -423,34 +431,47 @@ commitments Pedersen(vector<plainQuery> & query){
     for(int i=0;i<TABLE_HEIGHT;i++){
         long x = s1[i].toLong();
         long x2 = s2[i].toLong();
+	
+	long long cc1=computeCommitment(g,x,h,r,p);
+        long long cc2 = computeCommitment(g,x2,h,r,p);
 
+        c.ss[0].push_back(cc1); 
+        c.ss[1].push_back(cc2);
 
-        c.ss[0].push_back(computeCommitment(g1,x,h,r,p)); 
-        c.ss[1].push_back(computeCommitment(g1,x2,h,r,p));
-
-        if(i==0){
-            cout<<"ss[10]"<<computeCommitment(g1,x,h,r,p)<<endl;
-            //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s1[i]<<endl;
+        /*if(x+x2==0){
+	    cout<<"s1:"<<x<<", s2:"<<x2<<endl;
+            cout<<"at i="<<i<<": s1+s2="<<x+x2<<endl;
+	    //cout<<
+            cout<<"sumB: cc1*cc2 = "<<((long)(ceil(cc1/100000.0*cc2/100000.0)))%p<<endl;
+            cout<<"commitment of 0: "<<computeCommitment(g,0,h,r+r,p)/100000<<endl;
         }
+        else{
+	    cout<<"s1:"<<x<<", s2:"<<x2<<endl;
+            cout<<"at i="<<i<<": s1+s2="<<x+x2<<endl;
+	    //cout<<
+            cout<<"sumB: cc1*cc2 = "<<((long)(ceil(cc1/100000.0*cc2/100000.0)))%p<<endl;
+            cout<<"commitment of not 0: "<<computeCommitment(g,0,h,r+r,p)/100000<<endl;
+        }*/
 
         long x3 = (long) b1[i];
         long x4 = (long) b2[i];
 
         
-        long long cc3=computeCommitment(g1,x3,h,r,p);
-        long long cc4 = computeCommitment(g1,x4,h,r,p);
-        if(x3+x4==1){
+        long long cc3=computeCommitment(g,x3,h,r,p);
+        long long cc4 = computeCommitment(g,x4,h,r,p);
+        /*if(x3+x4==1){
 	    cout<<"b1:"<<x3<<", b2:"<<x4<<endl;
             cout<<"at i="<<i<<": b1+b2="<<x3+x4<<endl;
-            cout<<"sumB: cc3+cc4 = "<<cc3+cc4<<endl;
-            cout<<"commitment of 1: "<<computeCommitment(g1,1,h,r+r,p)<<endl;
+	    cout<<
+            cout<<"sumB: cc3*cc4 = "<<((long)(ceil(cc3/100000.0*cc4/100000.0)))%p<<endl;
+            cout<<"commitment of 1: "<<computeCommitment(g,1,h,r+r,p)/100000<<endl;
         }
         else{
 	    cout<<"b1:"<<x3<<", b2:"<<x4<<endl;
             cout<<"at "<<i<<" : b1+b2="<<x3+x4<<endl;
-            cout<<"Sumb: cc3+cc4 = "<<cc3+cc4<<endl;
-            cout<<"commitment of 0: "<<computeCommitment(g1,0,h,r+r,p)<<endl;
-        }
+            cout<<"sumB: cc3*cc4 = "<<((long)(ceil(cc3/100000.0*cc4/100000.0)))%p<<endl;
+            cout<<"commitment of 0: "<<computeCommitment(g,0,h,r+r,p)/100000<<endl;
+        }*/
         c.bs[0].push_back(cc3); 
         c.bs[1].push_back(cc4);
     }
@@ -465,15 +486,13 @@ commitments Pedersen(vector<plainQuery> & query){
 }
 
 bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
-    long p  = 1109;
-    long q = 277;
-    //long g = 966;
-    long r = 29;//75;
+    long p  = 3547;
+    long q = 197;
 
+    long g = 3;
+    long h = 7;
+    long r = 2;
 
-    long g1 = 127;
-    long h = 29;
-    //long x = 30;
     vector<long> Bsum, Ssum;
     ByteArray<KEYSIZE> s[TABLE_HEIGHT] = query.s;
     auto b = query.b;
@@ -482,14 +501,14 @@ bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
         long x = s[i].toLong();
         long x3 = (long) b[i];
 
-        if(cc.ss[server_idx][i]!=computeCommitment(g1,x,h,r,p)){
+        if(cc.ss[server_idx][i]!=computeCommitment(g,x,h,r,p)){
             //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s[i]<<endl;
-            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\n ss[idx][i]:"<<cc.ss[server_idx][i]<<"\ncomputed:"<<computeCommitment(g1,x,h,r,p)<<endl;
+            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\n ss[idx][i]:"<<cc.ss[server_idx][i]<<"\ncomputed:"<<computeCommitment(g,x,h,r,p)<<endl;
             //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s[i]<<endl;
             return false;
         }
-        if(cc.bs[server_idx][i]!=computeCommitment(g1,x3,h,r,p)){
-            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\nbs[idx][i]:"<<cc.bs[server_idx][i]<<"\ncomputed:"<<computeCommitment(g1,x,h,r,p)<<endl;
+        if(cc.bs[server_idx][i]!=computeCommitment(g,x3,h,r,p)){
+            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\nbs[idx][i]:"<<cc.bs[server_idx][i]<<"\ncomputed:"<<computeCommitment(g,x,h,r,p)<<endl;
             return false;
         }
 
