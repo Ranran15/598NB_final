@@ -380,15 +380,15 @@ bool signWallet(wallet w){
 
 struct commitments
 {
-    vector<vector<long>> ss;
+    vector<vector<long long>> ss;
     //vector<long> c2;
-    vector<vector<long>> bs;
+    vector<vector<long long>> bs;
 
     //vector<long> c3,c4;
 };
 
-long computeCommitment(long g, long x, long h, long r, long p){
-    return ((long)pow(g,x) * (long)pow(h,r)) % p;
+long long computeCommitment(long g, long x, long h, long r, long p){
+    return (long long)((long long)pow(g,r) * (long long)pow(h,x))%p; //% p;
 }
 
 //Generate Pedersen Commitment
@@ -406,16 +406,16 @@ commitments Pedersen(vector<plainQuery> & query){
 
     long p  = 1109;
     long q = 277;
-    long g = 966;
-    long r = 75;
+    //long g = 966;
+    long r = 29;//75;
 
-    long g1 = 127;
-    long h = 29;
+    long g1 = 127; //g
+    long h = 29; //v
 
     //TODO: x should loop through s and b
     //long x = 30;
     commitments c;
-    vector<long> c1,c2,c3,c4;
+    vector<long long> c1,c2,c3,c4;
     c.ss.push_back(c1);
     c.ss.push_back(c2);
     c.bs.push_back(c3);
@@ -425,11 +425,11 @@ commitments Pedersen(vector<plainQuery> & query){
         long x2 = s2[i].toLong();
 
 
-        c.ss[0].push_back(computeCommitment(g,x,h,r,p)); 
-        c.ss[1].push_back(computeCommitment(g,x2,h,r,p));
+        c.ss[0].push_back(computeCommitment(g1,x,h,r,p)); 
+        c.ss[1].push_back(computeCommitment(g1,x2,h,r,p));
 
         if(i==0){
-            cout<<"ss[10]"<<computeCommitment(g,x,h,r,p)<<endl;
+            cout<<"ss[10]"<<computeCommitment(g1,x,h,r,p)<<endl;
             //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s1[i]<<endl;
         }
 
@@ -437,17 +437,19 @@ commitments Pedersen(vector<plainQuery> & query){
         long x4 = (long) b2[i];
 
         
-        long cc3=computeCommitment(g,x3,h,r,p);
-        long cc4 = computeCommitment(g,x4,h,r,p);
-        if(i==239){
-            cout<<"at i=239: b1+b2="<<x3+x4<<endl;
-            cout<<"cc3+cc4 = "<<cc3+cc4<<endl;
-            cout<<"commitment of 1: "<<computeCommitment(g,1,h,r+r,p)<<endl;
+        long long cc3=computeCommitment(g1,x3,h,r,p);
+        long long cc4 = computeCommitment(g1,x4,h,r,p);
+        if(x3+x4==1){
+	    cout<<"b1:"<<x3<<", b2:"<<x4<<endl;
+            cout<<"at i="<<i<<": b1+b2="<<x3+x4<<endl;
+            cout<<"sumB: cc3+cc4 = "<<cc3+cc4<<endl;
+            cout<<"commitment of 1: "<<computeCommitment(g1,1,h,r+r,p)<<endl;
         }
-        if(i==238){
-            cout<<"at i=238: b1+b2="<<x3+x4<<endl;
-            cout<<"cc3+cc4 = "<<cc3+cc4<<endl;
-            cout<<"commitment of 0: "<<computeCommitment(g,0,h,r+r,p)<<endl;
+        else{
+	    cout<<"b1:"<<x3<<", b2:"<<x4<<endl;
+            cout<<"at "<<i<<" : b1+b2="<<x3+x4<<endl;
+            cout<<"Sumb: cc3+cc4 = "<<cc3+cc4<<endl;
+            cout<<"commitment of 0: "<<computeCommitment(g1,0,h,r+r,p)<<endl;
         }
         c.bs[0].push_back(cc3); 
         c.bs[1].push_back(cc4);
@@ -465,8 +467,8 @@ commitments Pedersen(vector<plainQuery> & query){
 bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
     long p  = 1109;
     long q = 277;
-    long g = 966;
-    long r = 75;
+    //long g = 966;
+    long r = 29;//75;
 
 
     long g1 = 127;
@@ -480,20 +482,20 @@ bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
         long x = s[i].toLong();
         long x3 = (long) b[i];
 
-        if(cc.ss[server_idx][i]!=computeCommitment(g,x,h,r,p)){
+        if(cc.ss[server_idx][i]!=computeCommitment(g1,x,h,r,p)){
             //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s[i]<<endl;
-            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\n ss[idx][i]:"<<cc.ss[server_idx][i]<<"\ncomputed:"<<computeCommitment(g,x,h,r,p)<<endl;
+            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\n ss[idx][i]:"<<cc.ss[server_idx][i]<<"\ncomputed:"<<computeCommitment(g1,x,h,r,p)<<endl;
             //cout<<"inputs: "<<g<<" "<<x<<" "<<h<<" "<<r<<" "<<p<<" "<<s[i]<<endl;
             return false;
         }
-        if(cc.bs[server_idx][i]!=computeCommitment(g,x3,h,r,p)){
-            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\nbs[idx][i]:"<<cc.bs[server_idx][i]<<"\ncomputed:"<<computeCommitment(g,x,h,r,p)<<endl;
+        if(cc.bs[server_idx][i]!=computeCommitment(g1,x3,h,r,p)){
+            cout<<"commitment not equal!!!!!\n"<<"i:"<<i<<";\n values:\nbs[idx][i]:"<<cc.bs[server_idx][i]<<"\ncomputed:"<<computeCommitment(g1,x,h,r,p)<<endl;
             return false;
         }
 
         Bsum.push_back(cc.ss[0][i]+cc.ss[1][i]);
         Ssum.push_back(cc.bs[0][i]+cc.bs[1][i]);
-        if(i==239)
+        if(i==65)
          cout<<"sumB at index "<<i<<": "<<cc.ss[0][i]+cc.ss[1][i]<<endl;
         // //cout<<"sumS at index "<<i<<": "<<cc.bs[0][i]+cc.bs[1][i]<<endl;
         // long zz = computeCommitment(g,0,h,r,p);
@@ -557,90 +559,6 @@ int main() {
 
 
 
-
-
-
-
-    
-  constexpr size_t dimension = 10; // Dimension of the vector
-    // using ppT = default_r1cs_ppzksnark_pp; // Use the default public parameters
-  // using FieldT = ppT::Fp_type; // ppT is a specification for a collection of types, among which Fp_type is the base field
-    typedef libff::default_ec_pp ppT;
-  typedef libff::Fr<libff::default_ec_pp> FieldT;
-  ppT::init_public_params(); // Initialize the libsnark
-
-  const auto one = FieldT::one(); // constant
-  std::vector<FieldT> public_input{one,one,one,one,one,one,one,one,one,one}; // x = (1,1,1,1,1,1,1,1,1,1)
-  std::vector<FieldT> secret_input{one,-one,one,-one,one,-one,one,-one,one,-one}; // our secret a such that <x,a> = 0
-
-  /*********************************/
-  /* Everybody: Design the circuit */
-  /*********************************/
-  protoboard<FieldT> pb; // The board to allocate gadgets
-  pb_variable_array<FieldT> A; // The input wires (anchor) for x
-  pb_variable_array<FieldT> B; // The input wires (anchor) for a
-  pb_variable<FieldT> res; // The output wire (anchor)
-
-  /* Allocate the anchors on the protoboard.
-   * Note: all the public input anchors must be allocated first before
-   * any other anchors. The reason is that libsnark simply treats the first
-   * num_inputs() number of anchors as primary_input for the r1cs, and the
-   * rest as auxiliary_input. */
-  A.allocate(pb, dimension, "A");
-  B.allocate(pb, dimension, "B");
-  res.allocate(pb, "res");
-  /* Connect the anchors by a inner_product computing gadget, specifying the
-   * relationship for the anchors (A,B and res) to satisfy.
-   * Note that this gadget introduces a lot more (to be accurate, 9) anchors
-   * on the protoboard. Now there are 30 anchors in total. */
-  inner_product_gadget<FieldT> compute_inner_product(pb, A, B, res, "compute_inner_product");
-
-  /* Set the first **dimension** number of anchors as public inputs. */
-  pb.set_input_sizes(dimension);
-  /* Compute R1CS constraints resulted from the inner product gadget. */
-  compute_inner_product.generate_r1cs_constraints();
-  /* Don't forget another constraint that the output must be zero */
-  generate_r1cs_equals_const_constraint(pb,pb_linear_combination<FieldT>(res),FieldT::zero());
-  /* Finally, extract the resulting R1CS constraint system */
-  auto cs = pb.get_constraint_system();
-
-  /***************************************/
-  /* Trusted Third Party: Key generation */
-  /***************************************/
-  auto keypair = r1cs_ppzksnark_generator<ppT>(cs);
-
-  /**************************************************/
-  /* Prover: Fill in both inputs and generate proof */
-  /**************************************************/
-  for (size_t i = 0; i < dimension; i++)
-  {
-    pb.val(A[i]) = public_input[i];
-    pb.val(B[i]) = secret_input[i];
-  }
-
-  /* We just set the value of the input anchors,
-   * now execute this function to function the gadget and fill in the other
-   * anchors */
-  compute_inner_product.generate_r1cs_witness();
-
-  auto pi = pb.primary_input();
-  auto ai = pb.auxiliary_input();
-  /* If res is not zero, this function will crash complaining that
-   * the R1CS constraint system is not satisfied. */
-  auto proof = r1cs_ppzksnark_prover<ppT>(keypair.pk,pi,ai);
-
-  /********************************************/
-  /* Verifier: fill in only the public inputs */
-  /********************************************/
-  for (size_t i = 0; i < dimension; i++)  // Actually, primary_input is a std::vector<FieldT>,
-    pb.val(A[i]) = public_input[i];       // we can just cast or copy the public_input to get primary input,
-  pi = pb.primary_input();                // but let's pretend that we don't know the implementation details
-
-  if(r1cs_ppzksnark_verifier_strong_IC<ppT>(keypair.vk,pi,proof)) {
-    cout << "Verified!Happy!" << endl;
-  } else {
-    cout << "Failed to verify!" << endl;
-  }
 
   return 0;
 }
