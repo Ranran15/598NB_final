@@ -19,8 +19,8 @@ using namespace libsnark;
 using namespace std;
 const size_t KEYSIZE = 16;
 const int PLAIN_LENGTH = 140;  
-const int TABLE_WIDTH = 1<<9;
-const int TABLE_HEIGHT = 1<<8;
+const int TABLE_WIDTH = 1<<5;
+const int TABLE_HEIGHT = 2;
 const int BOX_OVERHEAD = 16;
 
 const int WALLET_LENGTH = 128;
@@ -485,7 +485,7 @@ commitments Pedersen(vector<plainQuery> & query){
     return c;
 }
 
-bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
+bool verifyPederson(commitments & cc, plainQuery & query, int server_idx, vector<long>&Bsum, vector<long>&Ssum){
     long p  = 3547;
     long q = 197;
 
@@ -493,7 +493,7 @@ bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
     long h = 7;
     long r = 2;
 
-    vector<long> Bsum, Ssum;
+    //vector<long> Bsum, Ssum;
     ByteArray<KEYSIZE> s[TABLE_HEIGHT] = query.s;
     auto b = query.b;
     //verify it's correct commitment to server_idx
@@ -512,10 +512,12 @@ bool verifyPederson(commitments & cc, plainQuery & query, int server_idx){
             return false;
         }
 
-        Bsum.push_back(cc.ss[0][i]+cc.ss[1][i]);
-        Ssum.push_back(cc.bs[0][i]+cc.bs[1][i]);
-        if(i==65)
-         cout<<"sumB at index "<<i<<": "<<cc.ss[0][i]+cc.ss[1][i]<<endl;
+	if(Bsum.size()==0){
+          Bsum.push_back((cc.ss[0][i]*cc.ss[1][i])%p);
+          Ssum.push_back((cc.bs[0][i]*cc.bs[1][i])%p);
+        }
+        //if(i==65)
+        // cout<<"sumB at index "<<i<<": "<<cc.ss[0][i]+cc.ss[1][i]<<endl;
         // //cout<<"sumS at index "<<i<<": "<<cc.bs[0][i]+cc.bs[1][i]<<endl;
         // long zz = computeCommitment(g,0,h,r,p);
         // cout<<"commitment to zero: "<<zz<<endl;
@@ -565,16 +567,141 @@ int main() {
     cout<<"signwallet: "<<r<<endl;
 
     //long commitment = Pedersen(queries);
-
+    vector<long> Bsum, Ssum;
     commitments c = Pedersen(queries);
-    bool r2 = verifyPederson(c,queries[0],0);
+    bool r2 = verifyPederson(c,queries[0],0,Bsum, Ssum);
     cout<<r2<<endl;
 
-    bool r3 = verifyPederson(c,queries[1],1);
+    bool r3 = verifyPederson(c,queries[1],1, Bsum, Ssum);
     cout<<r3<<endl;
 
+   //commitment to 0:2401, 1: 109
+
+    
+  constexpr size_t dimension = TABLE_HEIGHT; // Dimension of the vector
+    // using ppT = default_r1cs_ppzksnark_pp; // Use the default public parameters
+  // using FieldT = ppT::Fp_type; // ppT is a specification for a collection of types, among which Fp_type is the base field
+    typedef libff::default_ec_pp ppT;
+  typedef libff::Fr<libff::default_ec_pp> FieldT;
+  ppT::init_public_params(); // Initialize the libsnark
+
+  const auto one = FieldT::one();//*109; // constant
+  const auto zero = FieldT::zero();//*2401; // constant
+//std::vector<FieldT> public_input{one,one,one,one,one,one,one,one,one,one}; // x = (1,1,1,1,1,1,1,1,1,1)
+//  std::vector<FieldT> secret_input{one,-one,one,-one,one,-one,two,-one,one,-one}; // our secret a such that <x,a> = 0
+  std::vector< std::vector<FieldT> > public_input;
+  std::vector<FieldT> secret_input; // our secret a such that <x,a> = 0
+  vector<FieldT> helper{one,one};//(TABLE_HEIGHT,FieldT::one());
+
+  for(int i=0;i<TABLE_HEIGHT;i++){
+    if(Bsum[i]==0){
+   cout<<"pushed 0"<<endl;
+	    const auto cur = FieldT::zero();
+	    secret_input.push_back(cur);
+    }else{ cout<<"pushed 1"<<endl;
+      const auto cur = FieldT::one();
+      secret_input.push_back(cur);
+    }
+    //vector<FieldT> pcur(TABLE_HEIGHT,FieldT::one()*109);
+    //pcur[i] = FieldT::one()*2401;
+    vector<FieldT> pcur(TABLE_HEIGHT,FieldT::one());
+    pcur[i] = FieldT::zero();
+    public_input.push_back(pcur);
+    helper.push_back(FieldT::one());
+  }
+  
+
+  /*********************************/
+  /* Everybody: Design the circuit */
+  /*********************************/
+  protoboard<FieldT> pb; // The board to allocate gadgets
+  pb_variable_array<FieldT> B; // The input wires (anchor) for x
+  vector<pb_variable_array<FieldT>> A; // The input wires (anchor) for a
+  pb_variable<FieldT> res; // The output wire (anchor)
+  pb_variable_array<FieldT >temp;
+  
+  pb_variable_array<FieldT> H;
+  /* Allocate the anchors on the protoboard.
+   * Note: all the public input anchors must be allocated first before
+   * any other anchors. The reason is that libsnark simply treats the first
+   * num_inputs() number of anchors as primary_input for the r1cs, and the
+   * rest as auxiliary_input. */
+  B.allocate(pb, dimension, "B");
+  H.allocate(pb, dimension, "H");
+  temp.allocate(pb, dimension, "temp");
+  for(int i=0;i<TABLE_HEIGHT;i++){
+    pb_variable_array<FieldT>aaa;
+    aaa.allocate(pb,dimension,"A"+to_string(i));
+    A.push_back(aaa);
+    //pb_variable<FieldT> ttt;
+    //ttt.allocate(pb, "temp"+to_string(i));
+    //temp.push_back(ttt);
+  }
+  //B.allocate(pb, dimension, "B");
+  res.allocate(pb, "res");
+  
+  /* Connect the anchors by a inner_product computing gadget, specifying the
+   * relationship for the anchors (A,B and res) to satisfy.
+   * Note that this gadget introduces a lot more (to be accurate, 9) anchors
+   * on the protoboard. Now there are 30 anchors in total. */
+  for(int i=0;i<TABLE_HEIGHT;i++){
+    inner_product_gadget<FieldT> compute_inner_product(pb, B, A[i], temp[i], "compute_inner_product");
+  }
+  inner_product_gadget<FieldT> compute_inner_product(pb, temp, H, res, "compute_inner_product");
+
+  /* Set the first **dimension** number of anchors as public inputs. */
+  pb.set_input_sizes(dimension);
+  /* Compute R1CS constraints resulted from the inner product gadget. */
+  compute_inner_product.generate_r1cs_constraints();
+  /* Don't forget another constraint that the output must be zero */
+  generate_r1cs_equals_const_constraint(pb,pb_linear_combination<FieldT>(res),FieldT::one());
+  /* Finally, extract the resulting R1CS constraint system */
+  auto cs = pb.get_constraint_system();
+
+  /***************************************/
+  /* Trusted Third Party: Key generation */
+  /***************************************/
+  auto keypair = r1cs_ppzksnark_generator<ppT>(cs);
+
+  /**************************************************/
+  /* Prover: Fill in both inputs and generate proof */
+  /**************************************************/
+  for (size_t i = 0; i < dimension; i++)
+  {
+    pb.val(B[i]) = secret_input[i];//public_input[i];
+    for (size_t j = 0; j < dimension; j++)
+    	pb.val(A[i][j]) = public_input[i][j];//secret_input[i];
+  }
+
+  /* We just set the value of the input anchors,
+   * now execute this function to function the gadget and fill in the other
+   * anchors */
+  compute_inner_product.generate_r1cs_witness();
+
+  auto pi = pb.primary_input();
+  auto ai = pb.auxiliary_input();
+  /* If res is not zero, this function will crash complaining that
+   * the R1CS constraint system is not satisfied. */
+  auto proof = r1cs_ppzksnark_prover<ppT>(keypair.pk,pi,ai);
+
+  /********************************************/
+  /* Verifier: fill in only the public inputs */
+  /********************************************/
+  //for (size_t i = 0; i < dimension; i++)  // Actually, primary_input is a std::vector<FieldT>,
+  //  pb.val(A[i]) = public_input[i];       // we can just cast or copy the public_input to get primary input,
+  for (size_t i = 0; i < dimension; i++){
+	  for (size_t j = 0; j < dimension; j++){
+	    	pb.val(A[i][j]) = public_input[i][j];//secret_input[i];
+	  }
+  }
+  pi = pb.primary_input();                // but let's pretend that we don't know the implementation details
 
 
+  if(r1cs_ppzksnark_verifier_strong_IC<ppT>(keypair.vk,pi,proof)) {
+    cout << "Verified!Happy!" << endl;
+  } else {
+    cout << "Failed to verify!" << endl;
+  }
 
 
 
