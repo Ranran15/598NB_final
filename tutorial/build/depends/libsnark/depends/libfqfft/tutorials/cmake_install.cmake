@@ -1,4 +1,4 @@
-# Install script for directory: /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials
+# Install script for directory: /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libfqfft/tutorials
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

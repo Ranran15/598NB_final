@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp" "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o"
-  "/home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp" "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o"
+  "/home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp" "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o"
+  "/home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp" "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,9 +20,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

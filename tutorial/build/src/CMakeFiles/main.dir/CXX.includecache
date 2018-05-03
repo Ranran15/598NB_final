@@ -1088,7 +1088,7 @@ libff/algebra/curves/public_params.hpp
 libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
 -
 
-/home/nb/Desktop/598NB_final/tutorial/src/main.cpp
+/home/hanyun/Desktop/598NB_final/tutorial/src/main.cpp
 libff/common/default_types/ec_pp.hpp
 -
 libsnark/common/default_types/r1cs_gg_ppzksnark_pp.hpp
@@ -1098,11 +1098,11 @@ libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.
 libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/r1cs_gg_ppzksnark.hpp
 -
 libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
-/home/nb/Desktop/598NB_final/tutorial/src/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
+/home/hanyun/Desktop/598NB_final/tutorial/src/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
 libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
-/home/nb/Desktop/598NB_final/tutorial/src/libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+/home/hanyun/Desktop/598NB_final/tutorial/src/libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
 libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
-/home/nb/Desktop/598NB_final/tutorial/src/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
+/home/hanyun/Desktop/598NB_final/tutorial/src/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
 string.h
 -
 iostream
@@ -1113,6 +1113,12 @@ stdio.h
 -
 vector
 -
+cmath
+-
 openssl/aes.h
+-
+openssl/sha.h
+-
+unistd.h
 -
 

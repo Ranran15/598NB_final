@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/hanyun/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/hanyun/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o.requires
@@ -74,17 +74,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o.requires
@@ -97,17 +97,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o.requires
@@ -120,17 +120,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o.requires
@@ -143,17 +143,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.requires
@@ -166,17 +166,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o.requires
@@ -189,17 +189,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/ed
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o.requires
@@ -212,17 +212,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/ed
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o.requires
@@ -235,17 +235,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/ed
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o.requires
@@ -258,17 +258,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/ed
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o.requires
@@ -281,17 +281,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/ed
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o.requires
@@ -304,17 +304,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o.requires
@@ -327,17 +327,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o.requires
@@ -350,17 +350,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o.requires
@@ -373,17 +373,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o.requires
@@ -396,17 +396,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o.requires
@@ -419,17 +419,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o.requires
@@ -442,17 +442,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o.requires
@@ -465,17 +465,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o.requires
@@ -488,17 +488,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o.requires
@@ -511,17 +511,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o.requires
@@ -534,17 +534,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/m
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o: ../depends/libsnark/depends/libff/libff/common/double.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/double.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/double.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/double.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp > CMakeFiles/ff.dir/common/double.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp > CMakeFiles/ff.dir/common/double.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/double.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp -o CMakeFiles/ff.dir/common/double.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/double.cpp -o CMakeFiles/ff.dir/common/double.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o.requires
@@ -557,17 +557,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o.provi
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o: ../depends/libsnark/depends/libff/libff/common/profiling.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/profiling.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/profiling.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/profiling.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp > CMakeFiles/ff.dir/common/profiling.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp > CMakeFiles/ff.dir/common/profiling.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/profiling.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp -o CMakeFiles/ff.dir/common/profiling.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/profiling.cpp -o CMakeFiles/ff.dir/common/profiling.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o.requires
@@ -580,17 +580,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o.pr
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o: ../depends/libsnark/depends/libff/libff/common/utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/utils.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/utils.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/utils.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp > CMakeFiles/ff.dir/common/utils.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp > CMakeFiles/ff.dir/common/utils.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/utils.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp -o CMakeFiles/ff.dir/common/utils.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/common/utils.cpp -o CMakeFiles/ff.dir/common/utils.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o.requires
@@ -603,17 +603,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o.provid
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o.requires
@@ -626,17 +626,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn12
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o.requires
@@ -649,17 +649,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn12
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o.requires
@@ -672,17 +672,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn12
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o.requires
@@ -695,17 +695,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn12
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o.requires
@@ -718,17 +718,17 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn12
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/flags.make
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o: ../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.i
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.s
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o.requires:
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o.requires
@@ -808,8 +808,8 @@ depends/libsnark/depends/libff/libff/libff.a: depends/libsnark/depends/libff/lib
 depends/libsnark/depends/libff/libff/libff.a: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make
 depends/libsnark/depends/libff/libff/libff.a: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libff.a"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean_target.cmake
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ff.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean_target.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build: depends/libsnark/depends/libff/libff/libff.a
@@ -848,10 +848,10 @@ depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/requires: depends/libsnar
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/requires
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/clean:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/clean
 
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/depend:
-	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hanyun/Desktop/598NB_final/tutorial /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/depends/libff/libff /home/hanyun/Desktop/598NB_final/tutorial/build /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/hanyun/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/hanyun/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/flags.make
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o: depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o: ../depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp > CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp > CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp -o CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp -o CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o.requires
@@ -89,7 +89,7 @@ depends/libsnark/libsnark/test_knapsack_gadget: /usr/lib/x86_64-linux-gnu/libgmp
 depends/libsnark/libsnark/test_knapsack_gadget: depends/libsnark/depends/libzm.a
 depends/libsnark/libsnark/test_knapsack_gadget: depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test_knapsack_gadget"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_knapsack_gadget.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_knapsack_gadget.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build: depends/libsnark/libsnark/test_knapsack_gadget
@@ -99,10 +99,10 @@ depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/requires: depends/
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/clean:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/test_knapsack_gadget.dir/cmake_clean.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/test_knapsack_gadget.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/depend:
-	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hanyun/Desktop/598NB_final/tutorial /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/depend
 

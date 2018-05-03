@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nb/Desktop/598NB_final/tutorial/src/main.cpp" "/home/nb/Desktop/598NB_final/tutorial/build/src/CMakeFiles/main.dir/main.cpp.o"
+  "/home/hanyun/Desktop/598NB_final/tutorial/src/main.cpp" "/home/hanyun/Desktop/598NB_final/tutorial/build/src/CMakeFiles/main.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,9 +16,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
-  "/home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
+  "/home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

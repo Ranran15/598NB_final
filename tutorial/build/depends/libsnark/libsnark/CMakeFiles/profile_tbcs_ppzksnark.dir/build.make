@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/hanyun/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/hanyun/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/flags.ma
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o: depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o: ../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp > CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp > CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp -o CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp -o CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o.requires
@@ -74,17 +74,17 @@ depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circui
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o: depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp > CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp > CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp -o CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp -o CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o.requires
@@ -114,7 +114,7 @@ depends/libsnark/libsnark/profile_tbcs_ppzksnark: /usr/lib/x86_64-linux-gnu/libg
 depends/libsnark/libsnark/profile_tbcs_ppzksnark: depends/libsnark/depends/libzm.a
 depends/libsnark/libsnark/profile_tbcs_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable profile_tbcs_ppzksnark"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/profile_tbcs_ppzksnark.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/profile_tbcs_ppzksnark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build: depends/libsnark/libsnark/profile_tbcs_ppzksnark
@@ -125,10 +125,10 @@ depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/requires: depend
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/clean:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/profile_tbcs_ppzksnark.dir/cmake_clean.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/profile_tbcs_ppzksnark.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/depend:
-	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hanyun/Desktop/598NB_final/tutorial /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/depend
 

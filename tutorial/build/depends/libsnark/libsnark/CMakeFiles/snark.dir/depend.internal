@@ -3,7 +3,7 @@
 
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o
  ../depends/libsnark/./libsnark/common/data_structures/integer_permutation.hpp
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o
  ../depends/libsnark/./libsnark/common/data_structures/merkle_tree.hpp
  ../depends/libsnark/./libsnark/common/data_structures/merkle_tree.tcc
@@ -30,7 +30,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commit
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/data_structures/set_commitment.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o
  ../depends/libsnark/./libsnark/common/default_types/r1cs_ppzkpcd_pp.hpp
  ../depends/libsnark/depends/libff/libff/../libff/algebra/curves/curve_utils.hpp
@@ -71,7 +71,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -172,7 +172,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzk
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o
  ../depends/libsnark/./libsnark/common/default_types/r1cs_ppzkpcd_pp.hpp
  ../depends/libsnark/./libsnark/common/default_types/tinyram_zksnark_pp.hpp
@@ -249,23 +249,23 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksn
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o
  ../depends/libsnark/./libsnark/common/data_structures/integer_permutation.hpp
  ../depends/libsnark/./libsnark/common/routing_algorithms/as_waksman_routing_algorithm.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o
  ../depends/libsnark/./libsnark/common/data_structures/integer_permutation.hpp
  ../depends/libsnark/./libsnark/common/routing_algorithms/benes_routing_algorithm.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o
  ../depends/libsnark/./libsnark/gadgetlib1/constraint_profiling.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/profiling.hpp
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -336,7 +336,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/adapters.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -405,7 +405,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/constraint.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -477,12 +477,12 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/gadget.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o
  ../depends/libsnark/./libsnark/gadgetlib2/infrastructure.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -559,7 +559,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/integration.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -624,7 +624,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/pp.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -694,7 +694,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/protoboard.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o
  ../depends/libsnark/./depends/ate-pairing/include/bn.h
  ../depends/libsnark/./depends/ate-pairing/include/zm.h
@@ -762,7 +762,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/variable.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o
  ../depends/libsnark/./libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.hpp
  ../depends/libsnark/./libsnark/relations/variable.hpp
@@ -774,15 +774,15 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_pr
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o
  ../depends/libsnark/./libsnark/relations/ram_computations/memory/memory_interface.hpp
  ../depends/libsnark/./libsnark/relations/ram_computations/memory/memory_store_trace.hpp
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o
  ../depends/libsnark/./libsnark/relations/ram_computations/memory/memory_interface.hpp
  ../depends/libsnark/./libsnark/relations/ram_computations/memory/ra_memory.hpp
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o
  ../depends/libsnark/./libsnark/relations/ram_computations/memory/memory_interface.hpp
  ../depends/libsnark/./libsnark/relations/ram_computations/rams/fooram/fooram_aux.hpp
@@ -790,7 +790,7 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/f
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp
 depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o
  ../depends/libsnark/./libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
  ../depends/libsnark/./libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
@@ -807,4 +807,4 @@ depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/t
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp
+ /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp

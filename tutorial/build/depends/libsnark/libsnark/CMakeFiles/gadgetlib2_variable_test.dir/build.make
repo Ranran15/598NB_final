@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/hanyun/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/hanyun/Desktop/598NB_final/tutorial/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/depend.make
@@ -51,17 +51,17 @@ include depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/flags.
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o: ../depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nb/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hanyun/Desktop/598NB_final/tutorial/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o -c /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o -c /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp > CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp > CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp -o CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp -o CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o.requires:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o.requires
@@ -91,7 +91,7 @@ depends/libsnark/libsnark/gadgetlib2_variable_test: depends/libsnark/depends/lib
 depends/libsnark/libsnark/gadgetlib2_variable_test: depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a
 depends/libsnark/libsnark/gadgetlib2_variable_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable gadgetlib2_variable_test"
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib2_variable_test.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib2_variable_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build: depends/libsnark/libsnark/gadgetlib2_variable_test
@@ -101,10 +101,10 @@ depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/requires: depe
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/clean:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib2_variable_test.dir/cmake_clean.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib2_variable_test.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/depend:
-	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hanyun/Desktop/598NB_final/tutorial /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/depend
 

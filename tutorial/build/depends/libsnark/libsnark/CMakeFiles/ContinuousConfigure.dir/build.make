@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nb/Desktop/598NB_final/tutorial
+CMAKE_SOURCE_DIR = /home/hanyun/Desktop/598NB_final/tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
+CMAKE_BINARY_DIR = /home/hanyun/Desktop/598NB_final/tutorial/build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/nb/Desktop/598NB_final/tutorial/build
 include depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D ContinuousConfigure
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && /usr/bin/ctest -D ContinuousConfigure
 
 ContinuousConfigure: depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure
 ContinuousConfigure: depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build.make
@@ -57,10 +57,10 @@ depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build: ContinuousCo
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/clean:
-	cd /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /home/nb/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nb/Desktop/598NB_final/tutorial /home/nb/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/nb/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hanyun/Desktop/598NB_final/tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hanyun/Desktop/598NB_final/tutorial /home/hanyun/Desktop/598NB_final/tutorial/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark /home/hanyun/Desktop/598NB_final/tutorial/build/depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/depend
 

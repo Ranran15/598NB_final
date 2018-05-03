@@ -21,8 +21,8 @@ using namespace libsnark;
 using namespace std;
 const size_t KEYSIZE = 16;
 const int PLAIN_LENGTH = 140;  
-const int TABLE_WIDTH = 1<<5;
-const int TABLE_HEIGHT = 2;
+const int TABLE_WIDTH = 1 << 5;
+const int TABLE_HEIGHT = 1 << 8;
 const int BOX_OVERHEAD = 16;
 
 const int WALLET_LENGTH = 128;
@@ -616,7 +616,7 @@ int main() {
     vector<FieldT> pcur(TABLE_HEIGHT,FieldT::one());
     cout<<"pcur size: "<<pcur.size()<<endl;
     pcur[i] = FieldT::zero();
-    for(int j=0;j<2;j++){
+    for(int j=0;j<TABLE_HEIGHT;j++){
       if(pcur[j]==one){
         cout<<"pcur["<<j<<"]: 1;"<<endl;
       }else if(pcur[j]==zero){
