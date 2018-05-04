@@ -12,8 +12,10 @@
 #include <stdio.h>
 #include <vector>
 #include <cmath>
+#include <ctime>
 #include <openssl/aes.h>
 #include <openssl/sha.h>
+
 
 #include <unistd.h>
 
@@ -22,7 +24,7 @@ using namespace std;
 const size_t KEYSIZE = 16;
 const int PLAIN_LENGTH = 140;  
 const int TABLE_WIDTH = 1 << 5;
-const int TABLE_HEIGHT = 1 << 8;
+const int TABLE_HEIGHT = 1 << 10;
 const int BOX_OVERHEAD = 16;
 
 const int WALLET_LENGTH = 128;
@@ -478,7 +480,7 @@ commitments Pedersen(vector<plainQuery> & query, vector<long>&Bsum, vector<long>
         c.bs[1].push_back(cc4);
 
         if(Bsum.size()==i){
-          cout<<"Bsum pushed: "<<((long)(ceil(cc3/100000.0*cc4/100000.0)))%p<<endl;
+          // cout<<"Bsum pushed: "<<((long)(ceil(cc3/100000.0*cc4/100000.0)))%p<<endl;
           Bsum.push_back(((long)(ceil(cc3/100000.0*cc4/100000.0)))%p);
           Ssum.push_back(((long)(ceil(cc1/100000.0*cc2/100000.0)))%p);
         }
@@ -604,25 +606,27 @@ int main() {
 
   for(int i=0;i<TABLE_HEIGHT;i++){
     if(Bsum[i]==2401){
-      cout<<"pushed 0"<<endl;
+      // cout<<"pushed 0"<<endl;
 	    //const auto cur = FieldT::zero();
 	    secret_input.push_back(FieldT::zero());
-    }else{ cout<<"pushed 1"<<endl;
+    }
+    else{ 
+        // cout<<"pushed 1"<<endl;
       //const auto cur = FieldT::one();
       secret_input.push_back(FieldT::one());
     }
     //vector<FieldT> pcur(TABLE_HEIGHT,FieldT::one()*109);
     //pcur[i] = FieldT::one()*2401;
     vector<FieldT> pcur(TABLE_HEIGHT,FieldT::one());
-    cout<<"pcur size: "<<pcur.size()<<endl;
+    // couts<<"pcur size: "<<pcur.size()<<endl;
     pcur[i] = FieldT::zero();
-    for(int j=0;j<TABLE_HEIGHT;j++){
-      if(pcur[j]==one){
-        cout<<"pcur["<<j<<"]: 1;"<<endl;
-      }else if(pcur[j]==zero){
-        cout<<"pcur["<<j<<"]: 0;"<<endl;
-      }
-    }
+    // for(int j=0;j<TABLE_HEIGHT;j++){
+    //   if(pcur[j]==one){
+    //     cout<<"pcur["<<j<<"]: 1;"<<endl;
+    //   }else if(pcur[j]==zero){
+    //     cout<<"pcur["<<j<<"]: 0;"<<endl;
+    //   }
+    // }
     public_input.push_back(pcur);
     helper.push_back(FieldT::one());
   }
@@ -684,6 +688,9 @@ int main() {
   /* Finally, extract the resulting R1CS constraint system */
   auto cs = pb.get_constraint_system();
 
+// The start of Zero Knowledge Proof
+  std::clock_t c_start = std::clock();
+  cout << "*************** Start Time: " << c_start << " ***************" << endl;
   /***************************************/
   /* Trusted Third Party: Key generation */
   /***************************************/
@@ -726,19 +733,28 @@ int main() {
   }
   pi = pb.primary_input();                // but let's pretend that we don't know the implementation details
 
-  pb_linear_combination_array<FieldT> tttt = pb_linear_combination_array<FieldT>(temp);
-  cout<<"temp!!!!!0:"<<tttt[0] <<"\n1:"<<tttt[1]<<endl;
-  cout<<"res!!!!!"<<pb_linear_combination<FieldT>(res)<<endl;
-  cout<<"ONE!!!"<<FieldT::one()<<endl;
+  // pb_linear_combination_array<FieldT> tttt = pb_linear_combination_array<FieldT>(temp);
+  // cout<<"temp!!!!!0:"<<tttt[0] <<"\n1:"<<tttt[1]<<endl;
+  // cout<<"res!!!!!"<<pb_linear_combination<FieldT>(res)<<endl;
+  // cout<<"ONE!!!"<<FieldT::one()<<endl;
+
+  
 
   if(r1cs_ppzksnark_verifier_strong_IC<ppT>(keypair.vk,pi,proof)) {
-    cout << "Verified!Happy!" << endl;
+    cout << "Verified! Congratulation!" << endl;
+    
   } else {
     cout << "Failed to verify!" << endl;
   }
 
+  // End of Zero Knowledge Proof
+  std::clock_t c_end = std::clock();
+  cout << "*************** End Time: " << c_end << " ***************" << endl;
 
-
+  cout << "\nTABLE_HEIGHT: " << TABLE_HEIGHT << endl;
+  cout << fixed << setprecision(2) << "CPU time used for zkSNARK: "
+         <<  (c_end - c_start) / (float)CLOCKS_PER_SEC << " s" << endl;
+  // cout << "CLOCKS_PER_SEC: " << CLOCKS_PER_SEC << endl;
 
   return 0;
 }
