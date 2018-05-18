@@ -1,7 +1,7 @@
-# cs598NB final project
+# CS 598NB final project
 
 
-instructions on running code:
+Instructions on running code:
 
 Make sure you have installed openssl, and libsnark
 
